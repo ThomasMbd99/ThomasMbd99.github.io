@@ -1,4 +1,4 @@
-Copy code h1 {
+h1 {
     font-size: 50px;
     text-align: center;
     color: #ffffff
@@ -11,8 +11,20 @@ p {
 }
 
 body {
+    background-color: rgba(255, 236, 214, 0.774);
     background-image: url("/Users/Dell/Documents/WILD CODE SCHOOL/HTML-CSS/logo.png");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
+}
+
+.encadre {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1px solid black;
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
